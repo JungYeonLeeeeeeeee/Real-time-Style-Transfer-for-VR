@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Tensor Flow Object Detection from getUserMedia</title>
+    <style>
+        html,body{
+          width: 100%;
+          height: 100%;
+        }
+        video {
+            position: absolute;
+            top: 0;
+            left: 0;
+            z-index: -1;
+            /*object-fit: contain;*/
+            /* Mirror the local video */
+            /*transform: scale(-1, 1);            /*For Firefox (& IE) */
+            /*-webkit-transform: scale(-1, 1);     /*for Chrome & Opera (& Safari) */
+        }
+        canvas{
+            position: absolute;
+            top: 0px;
+            left: 0px;
+            z-index:1;
+        }
+        button{
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            opacity: 0;
+            z-index:2;
+        }
+    </style>
+</head>
+<body>
+  <button id = "test"></button>
+  <div id="frame_div" style="display:none">
+    <video id="frame_source" autoplay></video>
+  </div>
+<script>
+  var test = document.getElementById("test");
+  test.addEventListener("click", function() {
+      document.body.requestFullscreen();
+  }, false);
+</script>
+<script src="/static/transfer.js"></script>
+<script id="styleTransfer" src="/static/styleTransfer.js" data-source="frame_source" data-mirror="false"></script>
+</body>
+</html>
