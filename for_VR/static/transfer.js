@@ -1,3 +1,18 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:19d3f26f9e94c0eca04e122f6c419e5b73873b9bc46f035e537bfc7f6bf36b38
-size 460
+//Get camera video
+const constraints = {
+    audio: false,
+    video: {
+        width: {min: 320, ideal: 640, max: 960},
+        height: {min: 360, ideal: 720, max: 1080}
+    }
+};
+
+navigator.mediaDevices.getUserMedia(constraints)
+    .then(stream => {
+        document.getElementById("frame_source").srcObject = stream;
+        console.log("Got local user video");
+
+    })
+    .catch(err => {
+        console.log('navigator.getUserMedia error: ', err)
+    });
