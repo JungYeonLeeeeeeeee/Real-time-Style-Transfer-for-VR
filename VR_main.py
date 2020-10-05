@@ -5,9 +5,15 @@ import tensorflow as tf
 import time
 from style_transfer import Transfer
 
+
+FLAGS = tf.compat.v1.flags.FLAGS
+tf.compat.v1.flags.DEFINE_string('checkpoint_dir', './style/africa',
+                       'dir to read checkpoint in, default: ./style/africa')
+
+
 tf.compat.v1.reset_default_graph() 
 
-checkpoint_dir = './style/aquarelle'
+checkpoint_dir = FLAGS.checkpoint_dir
 tf.compat.v1.disable_eager_execution()
 
 
