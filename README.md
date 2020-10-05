@@ -117,6 +117,7 @@ Enter your URL+'/transfer'. (For example. `https://365a81c4b5ff.ngrok.io/transfe
 
 ### Others
 We uses already trained and evaluated model. We don't touch anything of [prior git](https://github.com/ChengBinJin/Real-time-style-transfer)
+
 If you want to train more style and evaluated your model, then use to [prior git](https://github.com/ChengBinJin/Real-time-style-transfer)
 
 ### Attributions/Thanks
