@@ -1,3 +1,6 @@
+Sorry. We are a newbi in github. So we made a mistake of upload file.
+we over a limit of github lfs. Thus, some files have problem and it will be restore one month later. Really sorry.
+
 # Real-time-Style-Transfer-for-VR in [TensorFlow](https://github.com/tensorflow/tensorflow)
 This repository is Tensorflow implementation of Johnson's [Perceptual Losses for Real-Time Style Transfer and Super-Resolution](https://arxiv.org/abs/1603.08155).
 
