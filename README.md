@@ -21,7 +21,9 @@ It takes 600ms~800ms on a CPU (intel i5 7th) to style our web-cam (1024x720).
 
 ## Input & Output images / Style checkpoints
 You can get inpu and output images in [my google drive](https://drive.google.com/drive/folders/1EI5ACLssZxw6sFah2Plt14tcv7Wckt3h?usp=sharing)
+
 (That files are too large. So I upload that my google_drive. using it)
+
 Download that files and place in the same path as the other files.
 
 ## Stylization VR demo
