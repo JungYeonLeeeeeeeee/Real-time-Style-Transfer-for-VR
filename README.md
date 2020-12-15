@@ -1,6 +1,3 @@
-Sorry. We are a newbi in github. So we made a mistake of upload file.
-we over a limit of github lfs. Thus, some files have problem and it will be restore one month later. Really sorry.
-
 # Real-time-Style-Transfer-for-VR in [TensorFlow](https://github.com/tensorflow/tensorflow)
 This repository is Tensorflow implementation of Johnson's [Perceptual Losses for Real-Time Style Transfer and Super-Resolution](https://arxiv.org/abs/1603.08155).
 
@@ -21,6 +18,11 @@ It takes 600ms~800ms on a CPU (intel i5 7th) to style our web-cam (1024x720).
 - python 3.7  
 - numpy 1.14.2
 - flask 1.1.2
+
+## Input & Output images / Style checkpoints
+You can get inpu and output images in [my google drive](https://drive.google.com/drive/folders/1EI5ACLssZxw6sFah2Plt14tcv7Wckt3h?usp=sharing)
+(That files are too large. So I upload that my google_drive. using it)
+Download that files and place in the same path as the other files.
 
 ## Stylization VR demo
 We are preapring a more good demo video. Please wait a little longer.
